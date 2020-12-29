@@ -1,0 +1,96 @@
+{
+    "contractName": "SimpleStorage",
+    "abi": [],
+    "metadata": "{\"compiler\":{\"version\":\"0.7.0+commit.9e61f92b\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"d:/workspace/js/demo01/contracts/Test.sol\":\"SimpleStorage\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"d:/workspace/js/demo01/contracts/Test.sol\":{\"keccak256\":\"0xa0d2e274b46085827b69fddbf599411861e4a63fa226b61c6f1ab27cca445907\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://f511a372577b72577cb18e4e050d0f76de6e95ae9b8c87a0991421ea84f6dd75\",\"dweb:/ipfs/QmdxydazSQpqFTLCWZFMeb1YbCxEpSEijGEvDa5vL2u99Z\"]}},\"version\":1}",
+    "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220c257b4e56e5f3eeab3fc9a98522e8e16dadcba7f55d8e127c127e192baf6202364736f6c63430007000033",
+    "deployedBytecode": "6080604052600080fdfea2646970667358221220c257b4e56e5f3eeab3fc9a98522e8e16dadcba7f55d8e127c127e192baf6202364736f6c63430007000033",
+    "sourceMap": "69:65:1:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "69:65:1:-:0;;;;;",
+    "sourcePath": "d:/workspace/js/demo01/contracts/Test.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.7.0+commit.9e61f92b"
+    },
+    "ast": {
+        "absolutePath": "d:/workspace/js/demo01/contracts/Test.sol",
+        "exportedSymbols": {
+            "SimpleStorage": [
+                37
+            ]
+        },
+        "id": 38,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 34,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.4",
+                    ".22",
+                    "<",
+                    "0.8",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "33:32:1"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "documentation": null,
+                "fullyImplemented": true,
+                "id": 37,
+                "linearizedBaseContracts": [
+                    37
+                ],
+                "name": "SimpleStorage",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "constant": false,
+                        "id": 36,
+                        "mutability": "mutable",
+                        "name": "storedData",
+                        "nodeType": "VariableDeclaration",
+                        "overrides": null,
+                        "scope": 37,
+                        "src": "99:15:1",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                        },
+                        "typeName": {
+                            "id": 35,
+                            "name": "uint",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "99:4:1",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                            }
+                        },
+                        "value": null,
+                        "visibility": "internal"
+                    }
+                ],
+                "scope": 38,
+                "src": "69:65:1"
+            }
+        ],
+        "src": "33:103:1"
+    },
+    "functionHashes": {},
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "12600",
+            "executionCost": "66",
+            "totalCost": "12666"
+        }
+    }
+}
